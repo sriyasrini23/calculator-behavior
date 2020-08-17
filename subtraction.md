@@ -15,4 +15,3 @@ Scenario: The numbers are not valid
   When I enter invalid numbers
   
   Then I get an error message
-  
