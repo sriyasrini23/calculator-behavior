@@ -8,10 +8,10 @@ Scenario: Add two numbers
   
   Then "sum" is result
 
-Scenario: (describe a scenario here)
+Scenario: The numbers are not valid
   
-  Given (state the initial condition)
+  Given I have a calculator
   
-  When (state the event)
+  When I enter invalid input
   
-  Then (state the effect)
+  Then I get an error message
