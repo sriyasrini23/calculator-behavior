@@ -4,7 +4,7 @@ Scenario: Add two numbers
   
   Given I have two numbers to sum
 
-  When I enter "number1" followed by "+" and "number_2"
+  When I enter "first-number" followed by "+" and "second-number"
   
   Then "sum" is result
 
