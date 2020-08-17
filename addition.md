@@ -1,12 +1,12 @@
 # Addition
 
-Scenario: (describe a scenario here)
+Scenario: Add two numbers
   
-  Given (state the initial condition)
+  Given I have two numbers to sum
 
-  When (state the event)
+  When I enter <num1> followed by <+> and <num2>
   
-  Then (state the effect)
+  Then <sum> is result
 
 Scenario: (describe a scenario here)
   
