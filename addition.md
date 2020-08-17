@@ -4,9 +4,9 @@ Scenario: Add two numbers
   
   Given I have two numbers to sum
 
-  When I enter 'number1' followed by '+' and 'number2'
+  When I enter (number1) followed by (+) and (number2)
   
-  Then 'sum' is result
+  Then (sum) is result
 
 Scenario: (describe a scenario here)
   
