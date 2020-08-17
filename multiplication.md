@@ -12,6 +12,6 @@ Scenario: The numbers are not valid
   
   Given I have a calculator
   
-  When I enter invalid input
+  When I enter one or more inputs that are invalid or not numbers
   
-  Then I get an error message
+  Then I get an error message - "Invalid input"
